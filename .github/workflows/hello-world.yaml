@@ -8,4 +8,5 @@ jobs:
   hello-world:
     runs-on: ubuntu
     steps:
-      -run: echo "hello world"
+      - uses: actions/checkout@v3
+      - run: echo "hello world"
